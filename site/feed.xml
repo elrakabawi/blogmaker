@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+<channel>
+  <title>elrakabawi.sol</title>
+  <link>https://elrakabawi.sol.site</link>
+  <description>Notes, experiments, and long-form writing from elrakabawi.sol.</description>
+  <image>
+      <url>https://elrakabawi.sol.site/images/icon.svg</url>
+      <title>elrakabawi.sol</title>
+      <link>https://elrakabawi.sol.site</link>
+  </image>
+<item>
+  <title>Hello from elrakabawi.sol</title>
+  <link>https://elrakabawi.sol.site/posts/2026/06/16/hello.html</link>
+  <guid>https://elrakabawi.sol.site/posts/2026/06/16/hello.html</guid>
+  <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+  <description></description>
+</item>
+</channel>
+</rss>
