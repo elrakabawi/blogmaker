@@ -52,8 +52,11 @@ According to the current SNS docs, `Sol.site` is the standard bridge from your `
 2. In the repository settings, open **Pages** and set the source to **GitHub Actions**.
 3. Let the workflow publish the site.
 4. In **Pages**, set the custom domain to `elrakabawi.sol.site`.
-5. In SNS Manager for `elrakabawi.sol`, use **Configure Sol.site** and add a `CNAME` that points to `elrakabawi.github.io`.
-6. Wait for DNS and certificate propagation, then verify `https://elrakabawi.sol.site`.
+5. In SNS Manager for `elrakabawi.sol`, use **Configure Sol.site** and add these `A` records for `elrakabawi.sol.site`:
+   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+6. Optionally add these `AAAA` records for IPv6:
+   `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
+7. Wait for DNS and certificate propagation, then verify `https://elrakabawi.sol.site`.
 
 ### Misc
 
